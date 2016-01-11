@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F370F41-1ACD-48C1-8467-5A09F1F6DD2E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testABC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD7A1273E65D98C4D7AB80F867D421B90E75F289</key>
+		<string>https://github.com/taekwah/testABC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testABC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD7A1273E65D98C4D7AB80F867D421B90E75F289</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/taekwah/testABC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD7A1273E65D98C4D7AB80F867D421B90E75F289</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD7A1273E65D98C4D7AB80F867D421B90E75F289</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testABC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
