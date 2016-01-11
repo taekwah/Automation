@@ -14,18 +14,7 @@
 		AF6A251B1C4416E000793B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A25191C4416E000793B24 /* Main.storyboard */; };
 		AF6A251D1C4416E000793B24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A251C1C4416E000793B24 /* Images.xcassets */; };
 		AF6A25201C4416E000793B24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6A251E1C4416E000793B24 /* LaunchScreen.xib */; };
-		AF6A252C1C4416E000793B24 /* testABCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A252B1C4416E000793B24 /* testABCTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AF6A25261C4416E000793B24 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF6A25011C4416E000793B24 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF6A25081C4416E000793B24;
-			remoteInfo = testABC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AF6A25091C4416E000793B24 /* testABC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testABC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,20 +28,12 @@
 		AF6A251A1C4416E000793B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6A251C1C4416E000793B24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF6A251F1C4416E000793B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AF6A25251C4416E000793B24 /* testABCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testABCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6A252A1C4416E000793B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6A252B1C4416E000793B24 /* testABCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testABCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF6A25061C4416E000793B24 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF6A25221C4416E000793B24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				AF6A25091C4416E000793B24 /* testABC.app */,
-				AF6A25251C4416E000793B24 /* testABCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,24 +122,6 @@
 			productReference = AF6A25091C4416E000793B24 /* testABC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF6A25241C4416E000793B24 /* testABCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF6A25321C4416E000793B24 /* Build configuration list for PBXNativeTarget "testABCTests" */;
-			buildPhases = (
-				AF6A25211C4416E000793B24 /* Sources */,
-				AF6A25221C4416E000793B24 /* Frameworks */,
-				AF6A25231C4416E000793B24 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF6A25271C4416E000793B24 /* PBXTargetDependency */,
-			);
-			name = testABCTests;
-			productName = testABCTests;
-			productReference = AF6A25251C4416E000793B24 /* testABCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,10 +134,6 @@
 					AF6A25081C4416E000793B24 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = E735K8WEC6;
-					};
-					AF6A25241C4416E000793B24 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = AF6A25081C4416E000793B24;
 					};
 				};
 			};
@@ -193,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				AF6A25081C4416E000793B24 /* testABC */,
-				AF6A25241C4416E000793B24 /* testABCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,13 +163,6 @@
 				AF6A251B1C4416E000793B24 /* Main.storyboard in Resources */,
 				AF6A25201C4416E000793B24 /* LaunchScreen.xib in Resources */,
 				AF6A251D1C4416E000793B24 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF6A25231C4416E000793B24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,23 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF6A25211C4416E000793B24 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF6A252C1C4416E000793B24 /* testABCTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AF6A25271C4416E000793B24 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF6A25081C4416E000793B24 /* testABC */;
-			targetProxy = AF6A25261C4416E000793B24 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF6A25191C4416E000793B24 /* Main.storyboard */ = {
@@ -355,7 +289,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: NORTHALLEY LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NORTHALLEY LLC";
 				INFOPLIST_FILE = testABC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.northalley.newsibletest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,45 +304,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: NORTHALLEY LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NORTHALLEY LLC";
 				INFOPLIST_FILE = testABC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.northalley.newsibletest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bcdfa8af-79fc-4a0a-89cd-747c26eae1ae";
-			};
-			name = Release;
-		};
-		AF6A25331C4416E000793B24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testABCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testABC.app/testABC";
-			};
-			name = Debug;
-		};
-		AF6A25341C4416E000793B24 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testABCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testABC.app/testABC";
 			};
 			name = Release;
 		};
@@ -429,15 +329,6 @@
 			buildConfigurations = (
 				AF6A25301C4416E000793B24 /* Debug */,
 				AF6A25311C4416E000793B24 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF6A25321C4416E000793B24 /* Build configuration list for PBXNativeTarget "testABCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF6A25331C4416E000793B24 /* Debug */,
-				AF6A25341C4416E000793B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
