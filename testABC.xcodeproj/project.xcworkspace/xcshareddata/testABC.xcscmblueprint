@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ECA731C7187049F3531E4496A7544E659FAAD4D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ECA731C7187049F3531E4496A7544E659FAAD4D1" : 0,
+    "DD7A1273E65D98C4D7AB80F867D421B90E75F289" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6F370F41-1ACD-48C1-8467-5A09F1F6DD2E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ECA731C7187049F3531E4496A7544E659FAAD4D1" : "Automation\/",
+    "DD7A1273E65D98C4D7AB80F867D421B90E75F289" : "testABC"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testABC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testABC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/taekwah\/testABC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD7A1273E65D98C4D7AB80F867D421B90E75F289"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/taekwah\/Automation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ECA731C7187049F3531E4496A7544E659FAAD4D1"
+    }
+  ]
+}
