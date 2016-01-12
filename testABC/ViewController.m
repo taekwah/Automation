@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.statusLabel.text = [[NSBundle mainBundle] infoDictionary][@"kHiteshURL"];
+    NSLog(@"@%", [[NSBundle mainBundle] infoDictionary][@"kHiteshURL"]);
 }
 
 - (void)didReceiveMemoryWarning {

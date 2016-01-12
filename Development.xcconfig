@@ -1,0 +1,10 @@
+//
+//  Development.xcconfig
+//  testABC
+//
+//  Created by Admin on 12/01/16.
+//  Copyright © 2016 venu. All rights reserved.
+//
+
+
+BASE_URL = development.hitesh.com
