@@ -276,7 +276,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "bcdfa8af-79fc-4a0a-89cd-747c26eae1ae";
+				PROVISIONING_PROFILE = "da97aaee-8786-491b-985c-d006cdecb394";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -286,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NORTHALLEY LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NORTHALLEY LLC";
 				INFOPLIST_FILE = testABC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -301,14 +301,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NORTHALLEY LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NORTHALLEY LLC";
 				INFOPLIST_FILE = testABC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.northalley.newsibletest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bcdfa8af-79fc-4a0a-89cd-747c26eae1ae";
+				PROVISIONING_PROFILE = "da97aaee-8786-491b-985c-d006cdecb394";
 			};
 			name = Release;
 		};
